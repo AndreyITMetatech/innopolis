@@ -1,0 +1,263 @@
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    flex-grow: 1;
+}
+
+/* header */
+
+.header {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1300px;
+    min-height: 80px;
+    background-color: #213B7E;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0 15px;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.site-menu {
+    display: flex;
+    flex-wrap: wrap;
+    align-self: stretch;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.site-menu>li {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu-link {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0 18px;
+    background-color: #213B7E;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 20px;
+    text-decoration-line: underline;
+}
+
+.menu-link:hover {
+    background-color: #FFFFFF;
+    color: #213B7E;
+    text-decoration: none;
+    text-decoration-line: underline;
+}
+
+.login-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-decoration: none;
+    background-color: #EA5D21;
+    width: 100%;
+    max-width: 153px;
+    min-height: 50px;
+}
+
+.login-heading {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    text-align: center;
+    padding: 0%;
+    margin: 0px 0px 30px;
+}
+
+/* Popup */
+
+.login-popup {
+    display: none;
+    position: absolute;
+    box-sizing: border-box;
+    z-index: 2;
+    bottom: 0;
+    transform: translate(-50, -150);
+    width: 100%;
+    max-width: 500px;
+    max-height: 418px;
+    left: 470px;
+    top: 160px;
+    padding: 28px 28px 50px;
+    background: #FFFFFF;
+    border: 1px solid #213B7E;
+    background-color: #FFFFFF;
+}
+
+.login-form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.login-form>input {
+    width: 100%;
+    max-width: 500px;
+    min-height: 55px;
+    margin-bottom: 56px;
+    border: 1px solid #808080;
+}
+
+.login-input {
+    width: 100%;
+    max-width: 444px;
+    max-height: 55px;
+    left: 498px;
+    top: 250px;
+    background-color: #FFFFFF;
+    border: 1px solid #808080;
+    font-size: 24px;
+    line-height: 28px;
+    color: #808080;
+    padding: 0px;
+    padding: 0 0 0 10px;
+}
+
+.login-password {
+    width: 100%;
+    max-width: 444px;
+    max-height: 55px;
+    left: 498px;
+    top: 361px;
+    background-color: #FFFFFF;
+    border: 1px solid #808080;
+    font-size: 24px;
+    line-height: 28px;
+    color: #808080;
+    padding: 0 0 0 10px;
+}
+
+.popup-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 153px;
+    min-height: 50px;
+    left: 644px;
+    top: 472px;
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: #EA6113;
+    border: none;
+    font-size: 18px;
+    line-height: 21, 09px;
+}
+
+.active-link {
+    color: #21387e;
+    background-color: #FFFFFF;
+    text-decoration: none;
+}
+
+.show-popup {
+    display: block;
+}
+
+/* main */
+
+.main {
+    width: 100%;
+    max-width: 911px;
+    margin: 0 auto;
+    flex-grow: 1;
+}
+
+.main-heading {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.class-photo {
+    width: 100%;
+    max-width: 523px;
+    height: 100%;
+    max-height: 316px;
+}
+
+h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.intro-text {
+    width: 100%;
+    max-width: 634px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+em {
+    color: rgba(207, 85, 16, 1);
+}
+
+/* footer */
+
+.footer {
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    box-sizing: border-box;
+    max-width: 1300px;
+    min-height: 60px;
+    margin: 0 auto;
+    padding: 0 16px;
+    justify-content: center;
+    align-items: center;
+    background-color: #213B7E;
+}
+
+.copyright {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.innopolis-link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/* Media */
+@media (max-width: 1300px) {
+    .header {
+        width: 100%;
+    }
+
+    .site-menu {
+        width: 60%;
+        min-height: 80px;
+    }
+}
