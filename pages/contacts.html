@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="../css/style.css">
     <title>Сайт группы</title>
+    <script async src="../js/popup.js"></script>
 </head>
 
 <body class="page">
@@ -21,16 +22,28 @@
             <li><a class="menu-link" href="../pages/about.html">О курсе</a></li>
             <li><a class="menu-link" href="#">Контакты</a></li>
         </ul>
-        <a class="login-button">Войти</a>
+        <a class="login-button" href="login.html">Войти</a>
+        <div class="login-popup">
+            <h2 class="login-heading">Войти на сайт</h2>
+            <form class="login-form">
+                <input class="login-input" name="login" type="text" placeholder="Логин" required>
+                <input class="login-password" name="password" type="text" placeholder="Пароль" required>
+                <button class="popup-button" type="submit">Войти</button>
+            </form>
+        </div>
     </header>
 
     <main class="main">
-        
+        <h1 class="address-student">Как нас найти 🗺️️</h1>
+        <img class="map-photo" src="../img/google-map1.png" alt="map">
+        <p class="text">Наши контакты</p>
+        <h5 class="text-contacts">Адрес: г. Санкт-Петербург, Дворцовая пл., 2, 190000</h6>
+            <p class="phone-text">Тел: <a href=”tel:+78125555555”>+7 (812) 555-55-55</a></p>
     </main>
 
     <footer class="footer">
         <p class="copyright">
-            2022 &copy; <a href="" class="innopolis-link">учебный центр</a> 
+            2022 &copy; <a href="" class="innopolis-link">учебный центр</a>
         </p>
     </footer>
 </body>

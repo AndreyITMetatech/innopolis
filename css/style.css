@@ -205,6 +205,17 @@ h2 {
     font-size: 25px;
 }
 
+.text-right {
+    float: right;
+    margin: -41px 23px;
+    font-family: 'Lobster';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    color: #646464;
+
+}
+
 .intro-text {
     width: 100%;
     max-width: 634px;
@@ -216,6 +227,89 @@ h2 {
 
 em {
     color: rgba(207, 85, 16, 1);
+}
+
+/* Students */
+
+.main-student {
+    font-family: 'Roboto';
+}
+
+.student-name {
+    display: block;
+    font-family: 'Roboto';
+    font-size: 20px;
+    text-align: center;
+}
+
+.students {
+    max-width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.student {
+    padding-left: 25px;
+}
+
+.student-photo:hover {
+    border: #86C6F4 solid 5px;
+}
+
+.new-student-plashka {
+    position: relative;
+}
+
+.new-student {
+    position: absolute;
+    right: -18px;
+    top: -12px;
+    width: 94px;
+    height: 24px;
+    background-color: #3AA828;
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+/* about */
+.text {
+    font-family: 'Roboto';
+    font-size: 25px;
+}
+
+.video {
+    width: 100%;
+}
+
+/* Contacts */
+.address-student {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.text-contacts {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.phone-text {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+.map-photo {
+    width: 100%;
+    max-width: 1270px;
 }
 
 /* footer */
