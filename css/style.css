@@ -91,16 +91,15 @@ html {
 .login-popup {
     display: none;
     position: absolute;
-    box-sizing: border-box;
     z-index: 2;
     bottom: 0;
-    transform: translate(-50, -150);
+    left: 50%;
+    transform: translate(-50%, -35%);
+    box-sizing: border-box;
     width: 100%;
     max-width: 500px;
-    max-height: 418px;
-    left: 470px;
-    top: 160px;
-    padding: 28px 28px 50px;
+    min-height: 418px;
+    padding: 26px 28px 50px;
     background: #FFFFFF;
     border: 1px solid #213B7E;
     background-color: #FFFFFF;
