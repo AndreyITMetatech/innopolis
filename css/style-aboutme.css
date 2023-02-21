@@ -1,3 +1,140 @@
+/* Шрифты */
+
+* {
+    color: black;
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: #000000;
+    font-size: 25px;
+}
+
+h2 {
+    color: #000000;
+    font-size: 20px;
+}
+
+/* Список */
+
+.list1 {
+    width: 100%;
+    max-width: 1000px;
+    text-align: center;
+    display: inline-block;
+}
+
+.center1 {
+    display: inline-block;
+}
+
+.li1 {
+    width: 100%;
+    max-width: 100px;
+    text-align: left;
+}
+
+/* Главная страница */
+
+.page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0 auto;
+    flex-grow: 1;
+}
+
+.main {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-grow: 1;
+}
+
+.class-logo1 {
+    width: 100%;
+    max-width: 100px;
+    height: 100%;
+    max-height: 100px;
+}
+
+img.class-logo1 {
+    border-radius: 50%;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    transition: transform .8s ease-in-out;
+}
+
+img.class-logo1:hover {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+/* Фон */
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(45deg, #fff1eb, #ace0f9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Стили формы обратной связи */
+
+form {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 500px;
+    margin-top: 15px;
+    margin-bottom: 50px;
+    box-sizing: border-box;
+    padding: 30px;
+    border-radius: 7px;
+    background: #ffffff;
+}
+
+.textbox {
+    height: 40px;
+    width: 100%;
+    max-width: 500px;
+    border-radius: 7px;
+    border: #00000058 1px solid;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.message {
+    width: 100%;
+    max-width: 500px;
+    height: 60px;
+    border: #00000058 1px solid;
+    box-sizing: border-box;
+    border-radius: 7px;
+    display: block;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.button {
+    height: 40px;
+    width: 100%;
+    font-size: 17px;
+    border-radius: 7px;
+    border: #00000000 0px solid;
+    box-sizing: border-box;
+    padding: 10px;
+    background: #213B7E;
+    color: #ffffff;
+}
+
+.button:hover {
+    background: #ff0000;
+}
+
 html {
     font-family: 'Roboto', sans-serif;
 }
@@ -8,6 +145,51 @@ html {
     min-height: 100vh;
     margin: 0;
     flex-grow: 1;
+}
+
+/* Кнопка */
+
+.ccd {
+    overflow: hidden;
+    height: 50px;
+    margin: 50px 0;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+a.ddott {
+    display: block;
+    text-transform: uppercase;
+    line-height: 50px;
+    height: 50px;
+    width: 35%;
+    overflow: hidden;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    text-shadow: 0 100px 0 #FFF, 1px 76px 10px #000;
+    color: #FFF;
+    background: #ed1d25;
+    border-right: 2px solid #FFF;
+    border-left: 2px solid #FFF;
+    border-radius: 7px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+
+}
+
+a.ddott:hover {
+    text-shadow: 0 50px 0 #FFF, 1px 51px 20px #FFF;
+    margin-top: -50px;
+    height: 100px;
+    background: #222;
+    border-radius: 7px;
 }
 
 /* header */
@@ -174,208 +356,6 @@ html {
     display: block;
 }
 
-/* main */
-
-.main {
-    width: 100%;
-    max-width: 911px;
-    margin: 0 auto;
-    flex-grow: 1;
-}
-
-.main-map {
-    width: 100%;
-    max-width: 1300px;
-    margin: 0 auto;
-    flex-grow: 1;
-}
-
-.main-heading {
-    display: flex;
-    height: 35px;
-    margin: 35px 0 24px 0;
-    font-size: 30px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-
-}
-
-.class-photo {
-    width: 100%;
-    max-width: 523px;
-    height: 100%;
-    max-height: 316px;
-}
-
-h2 {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 25px;
-}
-
-.text-right {
-    float: right;
-    margin: -41px 23px;
-    font-family: 'Lobster';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 36px;
-    color: #646464;
-    
-}
-
-.intro-text {
-    width: 100%;
-    max-width: 634px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-}
-
-em {
-    color: rgba(207, 85, 16, 1);
-}
-
-/* Students */
-
-.main-student {
-    display: flex;
-    height: 36px;
-    font-weight: 700;
-    line-height: 36px;
-    font-size: 31px;
-    margin: 35px 0 24px 0;
-    font-family: 'Roboto';
-    align-items: center;
-    margin-left: 50px;
-}
-
-.student-name {
-    display: block;
-    font-family: 'Roboto';
-    font-size: 20px;
-    text-align: center;
-}
-
-.students {
-    position: relative;
-    max-width: 1200px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-top: 20px;
-    margin-left: 25px;
-    margin-bottom: 500px;
-}
-
-.student {
-    padding-left: 50px;
-}
-
-.student-photo:hover {
-    border: #86C6F4 solid 5px;
-}
-
-.new-student-plashka {
-    position: relative;
-}
-
-.new-student {
-    position: absolute;
-    right: -18px;
-    top: -12px;
-    width: 94px;
-    height: 24px;
-    background-color: #3AA828;
-    color: #ffffff;
-    font-size: 18px;
-    text-align: center;
-    border-radius: 20px;
-}
-
-/* about */
-
-.main-about {
-    width: 100%;
-    max-width: 911px;
-    margin: 0 auto;
-    flex-grow: 1;
-    margin-bottom: 140px;
-}
-
-.text {
-    font-family: 'Roboto';
-    font-size: 25px;
-}
-
-.video {
-    width: 100%;
-    min-width: 820px;
-    max-width: 549.33px;
-    padding-bottom: 20px;
-    margin-top: -10px;
-    margin-bottom: 200px;
-
-}
-
-input[type=checkbox] {
-    display: none;
-  }
-  
-  .video img {
-    margin: 100px;
-    transition: transform 0.25s ease;
-    cursor: zoom-in;
-  }
-  
-  input[type=checkbox]:checked ~ label > img {
-    transform: scale(2);
-    cursor: zoom-out;
-  }
-
-/* Contacts */
-
-.text-map {
-    font-family: 'Roboto';
-    font-size: 25px;
-    margin-left: 220px;
-}
-
-.address-student {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 30px;
-    margin: 35px 0 24px 220px;
-}
-
-.text-contacts {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    margin-left: 220px;
-}
-
-.phone-text {
-    font-family: 'Roboto';
-    font-weight: 400;
-    font-size: 18px;
-    text-decoration: underline;
-    margin-left: 220px;
-    margin-bottom: 270px;
-}
-
-.map-photo {
-    display: flex;
-    width: 100%;
-    max-width: 1268px;
-    margin-left: 15px;
-}
-
 /* footer */
 
 .footer {
@@ -412,10 +392,6 @@ input[type=checkbox] {
 @media (max-width: 1300px) {
     .header {
         width: 100%;
-    }
-
-    .students {
-        flex-wrap: wrap;
     }
 
     .site-menu {
