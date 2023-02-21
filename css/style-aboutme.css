@@ -76,7 +76,7 @@ img.class-logo1:hover {
 body {
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(45deg, #fff1eb, #ace0f9);
+    background: linear-gradient(25deg, #fff1eb, #bdeaff);
     display: flex;
     justify-content: center;
     align-items: center;
