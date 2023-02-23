@@ -174,6 +174,23 @@ html {
     display: block;
 }
 
+.popup-close {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 15px;
+    right: 15px;
+    overflow: hidden;
+    transition: all o.6s ease-in-out;
+    cursor: pointer;
+}
+
+.popup-close:hover {
+    border-radius: 50%;
+    transform: rotate(360deg);
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+}
+
 /* main */
 
 .main {
@@ -223,7 +240,7 @@ h2 {
     font-weight: 400;
     font-size: 36px;
     color: #646464;
-    
+
 }
 
 .intro-text {
@@ -268,7 +285,7 @@ em {
     justify-content: space-around;
     margin-top: 20px;
     margin-left: 25px;
-    margin-bottom: 500px;
+    margin-bottom: 250px;
 }
 
 .student {
@@ -315,26 +332,26 @@ em {
     width: 100%;
     min-width: 820px;
     max-width: 549.33px;
-    padding-bottom: 20px;
     margin-top: -10px;
     margin-bottom: 200px;
+    border: 2px solid #EA5D21;
 
 }
 
 input[type=checkbox] {
     display: none;
-  }
-  
-  .video img {
+}
+
+.video img {
     margin: 100px;
     transition: transform 0.25s ease;
     cursor: zoom-in;
-  }
-  
-  input[type=checkbox]:checked ~ label > img {
+}
+
+input[type=checkbox]:checked~label>img {
     transform: scale(2);
     cursor: zoom-out;
-  }
+}
 
 /* Contacts */
 
@@ -406,6 +423,47 @@ input[type=checkbox] {
     font-weight: 400;
     font-size: 20px;
     color: rgba(255, 255, 255, 0.5);
+}
+
+/* About Me */
+
+/* Список */
+
+.list1 {
+    width: 100%;
+    max-width: 1000px;
+    text-align: center;
+    display: inline-block;
+}
+
+.center1 {
+    display: inline-block;
+}
+
+.li1 {
+    width: 100%;
+    max-width: 100px;
+    text-align: left;
+}
+
+/* Главная страница */
+
+.class-logo1 {
+    width: 100%;
+    max-width: 100px;
+    height: 100%;
+    max-height: 100px;
+}
+
+img.class-logo1 {
+    border-radius: 50%;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    transition: transform .8s ease-in-out;
+}
+
+img.class-logo1:hover {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
 }
 
 /* Media */

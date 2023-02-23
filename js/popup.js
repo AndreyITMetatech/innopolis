@@ -1,10 +1,9 @@
 let loginButton = document.querySelector('.login-button');
 let loginPopUp = document.querySelector('.login-popup');
-
-console.log(loginButton);
-console.log(loginPopUp);
+let closeButton = document.querySelector('.popup-close');
 
 loginButton.addEventListener('click', showPopup);
+closeButton.addEventListener('click', close);
 
 function showPopup(evt) {
     console.log(evt);
@@ -12,3 +11,13 @@ function showPopup(evt) {
 
     loginPopUp.classList.toggle('show-popup')
 };
+
+function close() {
+    loginPopUp.classList.remove('show-popup')
+}
+
+loginPopUp.addEventListener('click', (e) => {
+    if (e.currentTarget.classList.consains('.popup-close')) {
+        close();
+    }
+})
